@@ -1,5 +1,5 @@
-* Steps
-  Roles:
+* Networked Live Coding february 2022
+  Participant Roles:
   1. Osc Group Service Manager [M]
   2. Condactor + SC programmer [C]
   3. Player [P]
