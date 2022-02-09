@@ -1,0 +1,36 @@
+* Steps
+  Roles:
+  1. Osc Group Service Manager [M]
+  2. Condactor + SC programmer [C]
+  3. Player [P]
+** Stage 1
+   1. Start OscGroupsServer on server terminal with this command:
+      #+BEGIN_SRC bash
+      OscGroupsServer
+      #+END_SRC
+      [M]
+   2. Communicate/Recieve OscGroupsServer ip and group name to group members. [R]
+   3. Start OscGroupsClient on local machine with this command:
+      #+BEGIN_SRC bash
+      OscGroupClient [SERVER IP ADDRESS] 22242 22246 22244 22245 [USERNAME] [USERNAME_PASSWORD] [GROUPNAME] [GROUP_PASSWORD]
+      #+END_SRC
+      [R]
+** Stage 2 - Prepare file structure.
+   On local computer:
+   1. Git clone/pull [[https://github.com/iani/sc-hacks-redux][sc-hacks-redux]] in the supercollider extension folder.
+   2. Recompile sclang.
+   3. Git clone/pull [[https://github.com/iani/sc-projects][sc-project]] into the user home directory. (ADD LINK TO REPO)
+   4. Download audiofiles.
+** Stage 3 - Prepare performance.
+   1. Recompile sclang.
+   2. Open sc-project gui. [C]
+      #+BEGIN_SRC sclang
+      Project.gui;
+      #+END_SRC
+   3. Select project folder for this performance.
+   4. Activate project current.
+      Method 1.
+      Method 2.
+   5. Boot Server default
+** Stage 4 - Performance
+   Start performance.
